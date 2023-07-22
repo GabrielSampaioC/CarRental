@@ -24,28 +24,28 @@ var contador = 0;
 var testemunhas = [];
 
 testemunhas[0] = {
-    img: "../CarRental/style/photo-man1.avif",
+    img: ".style/photo-man1.avif",
     opiniao: "There are many variations of passages a but Nullam vulputate urna, adipiscing vulputate mauris nisl sagittis et. Quisque id semper est nullam enim leo innec laoreet.",
     avaliacao: "4.8",
     nome: "Charlie Johnson"
 }
 
 testemunhas[1] = {
-    img: "../CarRental/style/photo-woman.avif",
+    img: "./style/photo-woman.avif",
     opiniao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, nam deleniti magni error vero quo quam maiores tempora ullam assumenda quibusdam quas, impedit incidunt.",
     avaliacao: "4.0",
     nome: "Mary Veni"
 }
 
 testemunhas[2] = {
-    img: "../CarRental/style/photo-man.avif",
+    img: "./style/photo-man.avif",
     opiniao: "Aut eius amet ex numquam repellendus et repellat eveniet id sint laudantium sit molestiae neque! Et ipsum perspiciatis qui debitis internos sed reiciendis quasi.",
     avaliacao: "5.0",
     nome: "João Pedro Brauna"
 }
 
 testemunhas[3] = {
-    img: "../CarRental/style/photo-woman2.avif",
+    img: "./style/photo-woman2.avif",
     opiniao: "Est quae nemo et provident corrupti et vitae quae est amet voluptatibus. Et voluptates consectetur et soluta aliquid non debitis fuga non exercitationem perspiciatis aut eligendi eius.",
     avaliacao: "4.7",
     nome: ""

@@ -149,7 +149,6 @@ body {
 
 .marcas {
     display: flex;
-    justify-content: center;
     padding: 2em 1em;
 
 }
@@ -629,6 +628,15 @@ body {
     transform: translateY(0);
 }
 
+.logos-slide{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.apagar{
+    display:none;
+}
+
 @media screen and (max-width:768px) {
 
     .cabecalho {
@@ -766,8 +774,12 @@ body {
 
     .logos-slide {
         animation: rodaroda 5s linear infinite;
-        display: flex;
-        flex-direction: row;
+        justify-content:start;
+        width: auto;
+        
+    }
+    .apagar{
+        display:flex;
     }
 
     .steps {
