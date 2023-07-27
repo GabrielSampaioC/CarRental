@@ -39,7 +39,7 @@ testemunhas[1] = {
 
 testemunhas[2] = {
     img: "../CarRental/style/photo-man.avif",
-    opiniao: "Aut eius amet ex numquam repellendus et repellat eveniet id sint laudantium sit molestiae neque! Et ipsum perspiciatis qui debitis internos sed reiciendis quasi.",
+    opiniao: "Aut eius amet ex numquam repellendus et repellat eveniet id sint laudantium sit molestiae neque! Et ipsum perspiciatis qui debitis internos sed reiciendis quasi,quibusdam quas.",
     avaliacao: "5.0",
     nome: "João Pedro Brauna"
 }
@@ -48,7 +48,7 @@ testemunhas[3] = {
     img: "../CarRental/style/photo-woman2.avif",
     opiniao: "Est quae nemo et provident corrupti et vitae quae est amet voluptatibus. Et voluptates consectetur et soluta aliquid non debitis fuga non exercitationem perspiciatis aut eligendi eius.",
     avaliacao: "4.7",
-    nome: ""
+    nome: "Letícia Elisabeth"
 }
 
 botao1.addEventListener("click", function () {

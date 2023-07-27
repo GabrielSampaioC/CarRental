@@ -46,6 +46,11 @@ body {
 .cabecalho-item {
     padding: 0 1em;
 }
+.cabecalho-item:hover{
+    color: var(--texto-alternativo);
+    cursor: pointer;
+    transition: 0.4s ease-in;
+}
 
 
 .pagina-principal {
@@ -150,9 +155,7 @@ body {
 
 .marcas {
     display: flex;
-    justify-content: center;
     padding: 2em 1em;
-
 }
 
 .howItWorks {
@@ -506,8 +509,13 @@ body {
 
 .testemunhas-botao {
     cursor: pointer;
-}
+    background: var(--background-branco);
+    border: none;
+    padding: 2em;
+    border-radius: 50px;
+    box-shadow: 1px 1px 20px 1px rgba(169, 169, 173, 0.25);
 
+}
 
 .testemunhas-texto {
     text-transform: uppercase;
@@ -630,20 +638,32 @@ body {
     transform: translateY(0);
 }
 
+.logos-slide {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.apagar {
+    display: none;
+}
+
 @media screen and (max-width:768px) {
 
     .cabecalho {
-        display: flex;
         flex-direction: column;
-        padding: 5px;
+        width: 100%;
+        padding: 0;
     }
-    .cabecalho-lista{
-        padding: 10px;
+
+    .cabecalho-lista {
+        padding: 1em 0;
         align-items: center;
     }
 
     .cabecalho-item {
         font-size: 1em;
+        padding: 5px;
     }
 
     .img-logo {
@@ -682,7 +702,7 @@ body {
     }
 
 
-    .varios-carros{
+    .varios-carros {
         width: 100%;
     }
 
@@ -697,15 +717,18 @@ body {
     }
 
     .pagina-principal-infos {
+        display: block;
+        text-align: center;
+        border: none;
+        position: static;
+        border-radius: 20px 20px 0 0;
+        padding: 1em 0;
         width: 100vw;
-        font-size: 0.1em;
-        display: flex;
-
-
     }
 
     .pagina-principal-infos-texto {
-        font-size: 12px;
+        font-size: 16px;
+        padding: 1em;
     }
 
     .bg-img {
@@ -717,26 +740,26 @@ body {
         padding: 1em;
     }
 
-    .whyChooseUs-texto,.whyChooseUs-titulo{
+    .whyChooseUs-texto,
+    .whyChooseUs-titulo {
         text-align: center;
     }
 
 
 
-    .whyChooseUs-direita{
-        text-align:right;
+    .whyChooseUs-direita {
+        text-align: right;
+        flex-flow: row-reverse;
     }
 
     #botao-search {
-        padding: 5px;
+        padding: 10px;
         border-left: 1px solid gray;
+        font-size: 12px;
     }
 
     .pagina-principal-infos-content {
-        border-left: 1px solid gray;
-        padding: 5px;
-        box-sizing: border-box;
-        font-size: 8px;
+        padding: 5px 0;
     }
 
     @keyframes rodaroda {
@@ -767,8 +790,13 @@ body {
 
     .logos-slide {
         animation: rodaroda 5s linear infinite;
+        justify-content: start;
+        width: auto;
+
+    }
+
+    .apagar {
         display: flex;
-        flex-direction: row;
     }
 
     .steps {
@@ -784,7 +812,7 @@ body {
     }
 
     .cars-card {
-        margin: 1em 0;
+        margin: 2em 0;
         padding: 1em 5px;
 
     }
@@ -798,30 +826,59 @@ body {
         padding: 1em;
     }
 
-    .testemunhas-flex{
-        display: flex;
-        text-align: center;
-        width: 100%;
-
+    .testemunhas{
+        padding: 1em;
     }
-    .testemunhas-conteudo{
-        display: block;
 
+
+    .testemunhas-botao {
+        display: none;
     }
-    .pessoas-foto{
-        width: 100vw;
+
+
+    .pessoas-foto {
         object-fit: cover;
     }
 
-    .testemunhas-conteudo-2{
-        font-size: 12px;
+    .testemunhas-estrelas{
+        justify-content: center;
+        padding: 10px 0;
     }
 
-    .testemunhas{
+    .testemunhas-opnioes{
+        margin: 10px;
+    }
+
+    .testemunhas-nome{
+        padding: 10px 0;
+    }
+
+    .testemunhas-conteudo {
         display: block;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .testemunhas-conteudo-2 {
+        font-size: 12px;
+        padding: 0;
+    }
+    
+    .rodape{
+        padding: 2em 0;
+    }
+
+    .rodape-lista{
+        display: block;
+    }
+
+    .rodape-lista-item-info,.rodape-lista-item{
         text-align: center;
     }
 
+    .milagre{
+        position: relative;
+        bottom: 9em;
+    }
 }
-
-
