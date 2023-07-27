@@ -45,6 +45,7 @@ body {
 
 .cabecalho-item {
     padding: 0 1em;
+    text-decoration: none;
 }
 .cabecalho-item:hover{
     color: var(--texto-alternativo);
